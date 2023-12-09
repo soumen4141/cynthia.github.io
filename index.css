@@ -1,0 +1,486 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Caprasimo&family=Gabarito&family=Jost&family=Nunito+Sans:opsz@6..12&family=Poppins:wght@300;400&family=Questrial&family=Roboto&family=Roboto+Slab&display=swap');
+
+*{
+
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: black;
+    position: relative;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+/*----mouse pointer_*/
+.pointer{
+
+  width:.8vw;
+  height:.8vw;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top:0px;
+  left:0px;
+  z-index: 1010;
+  transition: all .1s ease;
+  background-blend-mode: difference;
+}
+
+
+/*----mouse pointer_*/
+
+/*-----sticky css code start--------*/
+
+.sticky{
+  width:3vw;
+  height:8vw;
+  background-color: white;
+  position: fixed;
+  z-index: 1001;
+  right:-100px;
+  top:37vh;
+  padding: .5vw .5vw;
+  color:black;
+
+}
+
+.sticky h4{
+  writing-mode: vertical-lr; 
+  margin-top: 2.5vw;
+  margin-left: .5vw;
+  transform: rotate(180deg);
+
+}
+
+/*-----sticky css code end--------*/
+
+/*-----sticky css code start--------*/
+
+
+.loader{
+  width:100vw;
+  height:100vh;
+  background-color: rgb(102, 102, 101);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.loader h3{
+  font-size: 1.3vw;
+  color: black;
+  position: relative;
+  left:0px;
+
+}
+
+/*-----sticky css code end--------*/
+
+
+
+/*---------main project css code---------*/
+
+.main{
+    width:100vw;
+    /*min-height: 100vh;*/
+}
+
+.main .landing_page{
+
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    color:white;
+    position: relative;
+}
+
+
+
+/*---------navber css code---------*/
+
+
+
+
+ .navber{
+
+    height:10vh;
+    width:100%;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 3vw 1vw 3vw;
+    position: fixed;
+     top:-100px;
+    z-index: 1000;
+    overflow: hidden;
+}
+.navber .manus{
+  width:25vw;
+  background-color:transparent;
+  font-size: 1vw;
+
+  color: white;
+  position: relative;
+  top:10px;
+  left:574px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.navber .manus h4{
+  font-weight: 500;
+  position: relative;
+  top:-100px;
+  
+  
+}
+ .navber h3{
+
+    width:20%;
+    height:80%;
+    background-color: transparent;
+    margin-top: .5vw;
+    font-weight: 400;
+
+
+}
+ .navber .menu{
+    text-align: right;
+    color:white;
+    transition: all .1s ease;
+}
+.navber .menu:hover{
+  opacity: .6;
+}
+
+  .navber .logo a{
+    text-decoration: none;
+    color: white;
+ }
+ /*---------navber css code---------*/
+
+  /*---------hero css code---------*/
+
+
+.landing_page .hero_main{
+
+    width:100vw;
+    background-color: transparent;
+    position: relative;
+    top:2vw;
+
+
+}
+.landing_page .hero{
+    width:100vw;
+    height: 70vh;
+    background-color: transparent;
+    padding-left: 3vw;
+    padding-top: 7vw;
+    
+}
+.hero .hero_div{
+    width:100vw;
+    padding-left: 12vw;
+    background-color:transparent;
+    overflow: hidden;
+    position: relative;
+    
+}
+.hero .hero_div .second{
+  position: relative;
+  top:200px;
+  padding-top: 1vw;
+
+}
+.landing_page .hero h1{
+    width:60%;
+    background-color:transparent;
+    font-size: 10vw;
+    font-weight: 600; 
+    color: rgb(165, 167, 167);  
+  position: relative;
+  top:200px;
+
+}
+.hero .second{
+    
+   margin-top: -3vw;
+
+}
+.hero h3{
+    width:60%;
+    text-align: right;
+    background-color: transparent;
+    padding-right: 13px;
+    margin-top: -1vw;
+    font-weight: 500;
+    position: relative;
+    top:100px;
+}
+
+.landing_page .hero_main .available{
+    width:100vw;
+    height:100px;
+    background-color: transparent;
+    float: right;
+    padding-right: 5vw;
+}
+.landing_page .hero_main .available h4{
+    text-align: right;
+    margin-bottom: .7vw;
+}
+
+
+  /*---------hero css code---------*/
+
+  /*-----landing page footer css------*/
+
+  .landing_page .footer{
+
+    width:100vw;
+    height:15vh;
+    background-color:transparent;
+    position: relative;
+    left: 0vw;
+    right: 0vw;
+    bottom: ovw;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    font-size: .7vw;
+    padding-top: 5.5vw;
+  }
+  .footer h3 i{
+
+    font-size: 1vw;
+    /*padding-left: 7px;*/
+    background-color:transparent;
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px;
+    margin-left: 5px;
+  }
+
+  .footer .icon{
+    width:7vw;
+    height:3vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:.3vw;
+
+    position: relative;
+    top: -.6vw;
+  }
+
+  .footer .icon i{
+    font-size: 1vw;
+    color: black;
+    font-weight: 500;
+    background-color: rgb(145, 142, 142);
+    border-radius: 50%;
+    transform: scaleX(1.12);
+    padding: .1vw .1vw;
+
+  }
+
+
+  /*-----------photo hover css code-----*/
+
+
+  .photo_hover{
+
+    width:100vw;
+    background-color:black;
+    padding-top: 14vw;
+    padding-left: 3vw;
+    
+  }
+  .photo_hover .first_hover {
+    width:88%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: .06vw solid white;
+    color: rgb(158, 156, 156);
+    position:relative;
+  
+  
+
+  }
+  .photo_hover .first_hover .hover_image{
+    width:30vw;
+    height:25vw;
+    background-color:transparent;
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+    transition: all  .05s ease-in-out;
+    overflow: hidden;
+  }
+ 
+
+  .photo_hover .first_hover h1{
+    width:100%;
+    font-size: 7vw;
+    padding: 4vw 0vw;
+    font-weight: 500;
+    background-color:transparent;
+    position: relative;
+    left:0px;
+    opacity: 1;
+    
+  }
+  .photo_hover .first_hover span{
+    font-size: 20px;
+    color: white;
+  }
+ /*------photo hover css code------- */
+
+  /*------about me css code------- */
+   .about{
+width:100vw;
+background-color:transparent;
+padding-top: 15vw;
+padding-left: 3vw;
+background-color: black;
+   }
+   .about .intro{
+
+    width:100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 43vw;
+    padding-right: 17vw;
+    
+   }
+
+   .intro .img{
+    width:16vw;
+    height:20vw;
+    background-color: aqua;
+    border: 1px solid white;
+    border-radius: .5vw;
+    overflow: hidden;
+   }
+   .intro .img img{
+    width:100%;
+    height:100%;
+    transition: all .5s ease-in-out;
+   }
+
+   .intro .img:hover img{
+    transform: scale(1.1,1.1);
+   }
+   .intro .descrip{
+    width:21vw;
+    background-color:transparent;
+
+   }
+   .intro .descrip h4{
+    width:24vw;
+
+    color: white;
+    font-size: 1vw;
+    line-height: 1.4vw;
+    font-weight: 500;
+   }
+   .intro .descrip button{
+
+    width:110px ;
+    height:33px;
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    transition: all .5s ease-in-out;
+
+
+
+   }
+   .intro .descrip button:hover{
+    background-color: white;
+    color:black;
+   }
+
+
+
+
+
+   /*------about me css code------- */
+
+
+   /*-------main page footer css coding start-----*/
+
+   .main_footer{
+    width:100vw;
+    background-color: black;
+    padding-top: 7vw;
+    padding-left: 3vw;
+   }
+   .main_footer .subscribe{
+    width:100vw;
+    
+   }
+   .main_footer .subscribe h4{
+    font-size: 15px;
+    color: rgb(133, 134, 134);
+   }
+   .main_footer .subscribe h3{
+    font-size: 18px;
+    margin-top: .4vw;
+    color: white;
+    font-weight: 500;
+   }
+
+   .main_footer .footer_link{
+
+    width:100vw;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7vw;
+    padding-top: 13vw;
+    padding-bottom: 1vw;
+    padding-left: 0vw;
+
+   }
+   .main_footer .footer_link .links{
+    width:22vw;
+
+    display: flex;
+    justify-content: space-between;
+    color: white;
+   }
+   .main_footer .footer_link .footer_left{
+    width:40vw;
+    color:white;
+    display: flex;
+    gap:2vw;
+    background-color:transparent;
+   }
+
+   /*-------main page footer css coding end-----*/
+
+
+ 
+
+ 
